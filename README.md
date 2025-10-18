@@ -5,4 +5,5 @@ This project demonstrates that i can create a basic webpage using HTML5, linking
 This project is part of The Odin Project Foundations course. I already knew the basics before taking this course but i figured that it would'nt hurt to repeat in case TOP teaches things my education missed.
 
 ## Credits
-- **Lasagna Image**: by [Emanuel Ekström] https://unsplash.com/@emanuelekstrom
+- **Lasagna Image**: by https://unsplash.com/@emanuelekstrom
+- **Chocolate Chip Cookies Image**: by https://unsplash.com/@uxsj_ph
