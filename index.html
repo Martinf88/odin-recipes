@@ -1,17 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes Project</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li> <a href="./recipes/lasagna.html">Homemade Lasagna</a></li>
-        <li><a href="./recipes/apple-crisp.html">Apple Crisp</a></li>
-        <li><a href="./recipes/chocolate-chip-cookies.html">Chocolate Chip Cookies</a></li>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Odin Recipes</h1>
+    </header>
+    <ul class="card-container">
+      <li class="card">
+        <div class="img-hover-zoom">
+          <a href="./recipes/lasagna.html">
+            <img
+              src="/images/emanuel-ekstrom-flEUTTwGlJQ-unsplash.jpg"
+              alt="Slice of lasagna served on a plate."
+            />
+          </a>
+        </div>
+        <div class="card-details">
+          <a href="./recipes/lasagna.html">Homemade Lasagna</a>
+          <p>Sergei Fedorov</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="img-hover-zoom">
+          <a href="./recipes/apple-crisp.html">
+            <img
+              src="/images/apple-crisp.jpg"
+              alt="Tasty looking image of portioned sized serving of apple crisp"
+            />
+          </a>
+        </div>
+        <div class="card-details">
+          <a href="./recipes/apple-crisp.html">Apple Crisp</a>
+          <p>Niklas Lidström</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="img-hover-zoom">
+          <a href="./recipes/chocolate-chip-cookies.html">
+            <img
+              src="/images/chokolate-chip-cookies.jpg"
+              alt="Pile of baked chocolate chip cookies"
+            />
+          </a>
+        </div>
+        <div class="card-details">
+          <a href="./recipes/chocolate-chip-cookies.html"
+            >Chocolate Chip Cookies</a
+          >
+          <p>Steve Yzerman</p>
+        </div>
+      </li>
     </ul>
-</body>
+  </body>
 </html>
