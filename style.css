@@ -29,11 +29,11 @@ header {
 }
 
 header h1 {
-  text-align: center;
-  flex: 1;
+  margin-right: auto;
 }
 
 header a {
+  margin-right: auto;
   color: black;
 }
 
